@@ -1,26 +1,26 @@
-# Meu primeiro projeto Python
-# 
-# print() = comando de saída
-print('Alo mundo !')
+# comando input(): quero permitir que o usuário digite algo..
 
-# Quando quiser guardar uma String! (frase)
-nome = 'Maurício Gonçalves'
-idade = 30
-cpf = '09277711957'
+nome = input('Digite seu nome:')
+sobrenome = input('Digite seu segundo nome:')
+idade = int(input('Digite sua idade:'))
+rg = int(input('Digite seu rg:'))
 
-print(nome)
-print(idade)
-print(cpf)
-
-# Quando quiser exibir a frase ' Minha idade é ' completando com o conteúdo da variável idade
-
-print('Minha idade é '+ str (idade))
-print(f'Minha idade é {idade}\n')
-print('Minha idade é {}'.format(idade))
+dobro = idade * 2
 
 
+#comando de saída ...exibir na tela input
+# Se quisesse mostrar o dobro da idade informada ?
 
-'''
-Comentário em bloco
+print('O dobro da idade informada é {}'.format(dobro))
+print(f'Seu nome é {nome}')
+print(f'Seu sobrenome é {sobrenome}')
+print(f'Sua idade é {idade}')
+print(f'Seu registro é {rg}')
 
-'''
+#print(f'Boa noite, seu nome é {nome}, {sobrenome} , {idade} , {rg}')
+
+#print('Boa noite, seu nome é {}, seu sobrenome é {}, sua idade é: {} e número de registro é 123638069'.format(nome, sobrenome, idade, rg))
+
+#print(sobrenome)
+#print(idade)
+#print(rg)
