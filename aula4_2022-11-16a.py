@@ -18,5 +18,8 @@ cursor.execute(sql)
 #Sexto passo: exibir a consulta com todos os nomes de heróis e vilões do banco de dados
 pessoas = cursor.fetchall() # fetchall é para pegar toda a informação
 for pessoa in pessoas:
+  print(pessoa)
+
+for pessoa in pessoas:
   print(f'Nome: {pessoa[1]} ({pessoa[3]})')
 
